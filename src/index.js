@@ -1,6 +1,6 @@
 import './index.css'
 import cards from './components/Cards'
-import {btn_play_template, btn_refresh_template} from './components/Botton'
+import { btn_play_template, btn_refresh_template } from './components/Botton'
 
 
 document.querySelector('#root').innerHTML = `
