@@ -1,29 +1,19 @@
-# Rsbuild project
+# TESORO PLAY
 
-## Setup
-
-Install the dependencies:
+## Instalar
 
 ```bash
-pnpm install
+npm install
 ```
 
-## Get started
-
-Start the dev server:
+## Correr
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
-Build the app for production:
+## Desplegar
 
 ```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
+npm run build
 ```
