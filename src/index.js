@@ -2,6 +2,10 @@ import './assets/css/style.css'
 import cards from './components/Cards'
 import { btn_play_template, btn_refresh_template } from './components/Botton'
 
+
+const WIN = 'WIN'
+const LOSE = 'LOSE'
+
 document.querySelector('#root').innerHTML = `
 <div class="content">
   <div class="game" id="game"></div>
@@ -24,10 +28,10 @@ btn_play.addEventListener('click', () => {
     el.addEventListener('click', () => {
       if (win_card == i) {
         el.classList.add('winner')
-        el.innerHTML = `<h3>WIN</h3>`
+        el.innerHTML = `<h3>${WIN}</h3>`
       } else {
         el.classList.add('lose')
-        el.innerHTML = `<h3>LOSE</h3>`
+        el.innerHTML = `<h3>${LOSE}</h3>`
       }
     })
   })
