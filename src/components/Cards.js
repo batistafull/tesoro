@@ -11,4 +11,4 @@ const cards = `
   </div>
   `
 
-  export default cards
+export default cards
