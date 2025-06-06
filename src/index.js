@@ -10,8 +10,6 @@ document.querySelector('#root').innerHTML = `
 </div>
 `
 
-
-
 const game = document.getElementById('game')
 const btn_group = document.getElementById('btn_group')
 const btn_play = document.getElementById('btn_play')
