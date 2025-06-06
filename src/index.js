@@ -1,9 +1,7 @@
-import './assets/css/style.css'
+import './assets/css/index.css'
+import { WIN, LOSE } from './dictionary'
 import cards from './components/Cards'
 import { btn_play_template, btn_refresh_template } from './components/Botton'
-
-const WIN = 'WIN'
-const LOSE = 'LOSE'
 
 document.querySelector('#root').innerHTML = `
 <div class="content">
