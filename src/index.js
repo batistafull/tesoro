@@ -1,6 +1,6 @@
 import './index.css'
 import cards from './components/Cards'
-import {btn_play_template, btn_refresh_template} from 
+import {btn_play_template, btn_refresh_template} from './components/Botton'
 
 
 document.querySelector('#root').innerHTML = `
@@ -20,7 +20,6 @@ const btn_play = document.getElementById('btn_play')
 btn_play.addEventListener('click', () => {
   let win_card = Math.round(Math.random() * 6) - 1
 
-  console.log(win_card)
   game.innerHTML = cards
   btn_group.innerHTML = btn_refresh_template
   const card = document.querySelectorAll('.card')
