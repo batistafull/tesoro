@@ -1,4 +1,4 @@
-import './index.css'
+import './assets/css/style.css'
 import cards from './components/Cards'
 import { btn_play_template, btn_refresh_template } from './components/Botton'
 
