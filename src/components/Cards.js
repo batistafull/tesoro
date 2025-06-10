@@ -9,6 +9,6 @@ const cards = `
     <div class="card"></div>
     <div class="card"></div>
   </div>
-  `
+`
 
 export default cards
